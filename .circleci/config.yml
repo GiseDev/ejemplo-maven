@@ -15,8 +15,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
-          command: "echo Hello, World Usach 2021!"
+          name: "Paso1"
+          command: "echo Validando con un push"
       - run:
           name: "Compile Code"
           command: "mvn clean compile -e"
