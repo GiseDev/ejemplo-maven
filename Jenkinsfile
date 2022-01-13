@@ -5,10 +5,10 @@ def jsonParse(def json) {
 pipeline {
     agent any
     stages {
-        stage("Paso 1: Compliar"){
+        stage("Paso 1: Compilar"){
             steps {
                 script {
-                sh "echo 'Compile Code!'"
+                sh "echo 'Compilar Codigo!'"
                 // Run Maven on a Unix agent.
                 sh "mvn clean compile -e"
                 }
