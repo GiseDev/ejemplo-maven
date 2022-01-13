@@ -8,7 +8,7 @@ pipeline {
         stage("paso 1"){
             steps {
                 script {
-                sh "echo 'Hello, World Usach 2021!'"
+                sh "echo 'Hello, World Usach 2022! Test webhook'"
                 }
             }
         }
