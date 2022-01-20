@@ -9,4 +9,10 @@ class DevOpsUsach2020ApplicationTests {
 	      int valor = 2;
 	      assertEquals(2, valor);
 	}
+
+	@Test
+	void contextLoads2() {
+	      int valor = 2;
+	      assertEquals(2, valor);
+	}
 }
